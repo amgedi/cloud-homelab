@@ -1,2 +1,4 @@
-# cloud-homelab
-My whole journey from Linux basics to Cloud/DevOps!😼
+# Cloud Homelab
+
+Documenting my path from Linux basics to Cloud/DevOps engineering! 
+See PROGRESS.md for my ongoing learning log.
