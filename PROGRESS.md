@@ -4,8 +4,8 @@ Just a running log of what I did, what broke, and what I learned. Newest entry w
 
 ### 2026-08-03
 **What I did:** Worked through Bandit up to Level 6, hit a wall on the find command's flags (-size, -not -executable). Also downloaded WSL2 + Ubuntu to have my own sandbox.
-**What clicked:** find is basically a filtered search — once broken into pieces (where to look, filter by size, filter by permission) it stopped looking like gibberish, now i gotta memorize it!
-**What bothered me:** Trying to learn new syntax under puzzle pressure is rough — kept blanking even after the command was explained piece by piece, overthinking is a killer but we're gonna push through it! its how we grow as people!
+**What clicked:** find is basically a filtered search - once broken into pieces (where to look, filter by size, filter by permission) it stopped looking like gibberish, now i gotta memorize it!
+**What bothered me:** Trying to learn new syntax under puzzle pressure is rough. kept blanking even after the command was explained piece by piece, overthinking is a killer but we're gonna push through it! its how we grow as people!
 **Random thought:** Having my own Ubuntu now feels like getting a practice field instead of just taking exams. No pressure to "get it right" first try! i think..?
 
 ### 2026-08-02
