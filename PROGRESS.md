@@ -2,7 +2,7 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
-### 2026-08-06
+### 2026-08-04
 **What I did:** Finished Linux Survival Module 2 (permissions concept via the zoo analogy), worked through a LinuxJourney challenge on cp/mv/rm. learned to back up files with `cp` and use `-r` for copying whole directories recursively..? (whatever that means, i only understand 50% of it at the moment aswell😅)
 **What clicked:** Permissions finally made sense from two angles now (zoo metaphor + my own lesson plan) & rwx isn't just random letters anymore. Also understood why `-r` is needed for folders but not single files (recursion = digging into everything inside).
 **What annoyed me:** Hit a tired/confused wall after ~3 hours across two platforms. felt like I was going pretty slow even though looking back, I actually covered a lot (Bandit to Level 5, WSL2 installed, 3 learning platforms touched, and I can now reason through commands instead of just copying them), so i guess progress really does make perfect!
