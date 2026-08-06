@@ -2,6 +2,12 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
+### 2026-08-05
+**What I did:** Explored whether Boot.dev or an aio app could replace this whole process (turns out no single platform does 0-to-DevOps (confirmed via research, it's normal to stitch multiple free resources together). Pushed Bandit up to Level 10. Had a real conversation about what Bandit is actually testing.
+**What clicked:** The big one today. Bandit isn't about memorizing exact command syntax, it's about recognizing the *category* of problem (searching inside a file? finding files by property? removing duplicates?) and then knowing what tool fits, even if I have to look up the exact flags. That reframes basically everything I've been stressing about lmao, overthinking is really a killer!
+**What annoyed me:** Almost went down a rabbit hole trying to find "the one app that does everything", turns out that doesn't exist so we're back to what I've already been doing (mixing Bandit + lessons + real practice) is basically what every roadmap recommends anyway.
+**Random thought:** Feeling less like I'm "behind" and more like I'm starting to think the way this field actually wants me to think, pattern recognition over memorization! Level 10 by day whatever this is, not bad. 3-4 hours today, calling it quits here.
+
 ### 2026-08-04
 **What I did:** Finished Linux Survival Module 2 (permissions concept via the zoo analogy), worked through a LinuxJourney challenge on cp/mv/rm. learned to back up files with `cp` and use `-r` for copying whole directories recursively..? (whatever that means, i only understand 50% of it at the moment aswell😅)
 **What clicked:** Permissions finally made sense from two angles now (zoo metaphor + my own lesson plan) & rwx isn't just random letters anymore. Also understood why `-r` is needed for folders but not single files (recursion = digging into everything inside).
