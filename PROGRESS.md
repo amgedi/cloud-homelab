@@ -2,6 +2,12 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
+### 2026-08-06
+**What I did:** Cracked Level 12! It was multi layer decompression  (xxd, gzip, bzip2 loop) and pushed into Level 13 (SSH private key login). Learned about file ownership, chmod abit more extensively, /tmp as scratch space, and copying files across permission boundaries!
+**What clicked:** Compressed files always look like gibberish with cat... at least it's normal & not broken though! Also finally got why /tmp exists as a universal writable scratch space when your own home folder can be locked down.
+**What annoyed me:** Level 13 kept failing with a "connecting from localhost is blocked" error even after doing everything right i believe? i believe it's likely be a serverside quirk & not something I did wrong but i'm saying this as cope to validate a frustrating 30+ min session.
+**Random thought:** Realized today that troubleshooting something that ISN'T my fault is its own skill, TOTALLY not my fault!!! knowing when to say "this might just be the server" instead of endlessly blaming my own command is new for me though, thought it was only movie talk up until now😭
+
 ### 2026-08-05
 **What I did:** Explored whether Boot.dev or an aio app could replace this whole process (turns out no single platform does 0-to-DevOps (confirmed via research, it's normal to stitch multiple free resources together). Pushed Bandit up to Level 10. Had a real conversation about what Bandit is actually testing.
 **What clicked:** The big one today. Bandit isn't about memorizing exact command syntax, it's about recognizing the *category* of problem (searching inside a file? finding files by property? removing duplicates?) and then knowing what tool fits, even if I have to look up the exact flags. That reframes basically everything I've been stressing about lol, overthinking is really a killer!
