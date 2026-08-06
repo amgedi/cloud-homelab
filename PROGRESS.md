@@ -5,7 +5,7 @@ Just a running log of what I did, what broke, and what I learned. Newest entry w
 ### 2026-08-06
 **What I did:** Cracked Level 12! It was multi layer decompression  (xxd, gzip, bzip2 loop) and pushed into Level 13 (SSH private key login). Learned about file ownership, chmod abit more extensively, /tmp as scratch space, and copying files across permission boundaries!
 **What clicked:** Compressed files always look like gibberish with cat... at least it's normal & not broken though! Also finally got why /tmp exists as a universal writable scratch space when your own home folder can be locked down.
-**What annoyed me:** Level 13 kept failing with a "connecting from localhost is blocked" error even after doing everything right i believe? i believe it's likely be a serverside quirk & not something I did wrong but i'm saying this as cope to validate a frustrating 30+ min session.
+**What annoyed me:** Level 13 kept failing with a "connecting from localhost is blocked" error even after doing everything right i believe? HOPEFULLY it's a serverside quirk & not something I did wrong but i'm saying this as cope to validate a frustrating 30+ min session.
 **Random thought:** Realized today that troubleshooting something that ISN'T my fault is its own skill, TOTALLY not my fault!!! knowing when to say "this might just be the server" instead of endlessly blaming my own command is new for me though, thought it was only movie talk up until now😭
 
 ### 2026-08-05
