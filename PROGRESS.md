@@ -3,7 +3,7 @@
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
 ### 2026-08-07
-**What I did:** Spent real time on Bandit Level 13 & just decided to give up on it as i believe its an error (the one with the SSH key login), tried multiple valid approaches (localhost, full hostname, verbose debugging), confirmed via -v output that my key loaded correctly. Also watched my first 3 A+ Core 1 videos on laptop hardware and mobile connectivity!
+**What I did:** Spent real time on Bandit Level 13 & just decided to give up on it as i finally just closed on the idea its an error (the one with the SSH key login), tried multiple valid approaches (localhost, full hostname, verbose debugging), confirmed via -v output that my key loaded correctly. Also watched my first 3 A+ Core 1 videos on laptop hardware and mobile connectivity!
 **What clicked:** Actually understand SSH key auth now, how -i works, why chmod matters (but only know what 600 does at the moment, i'll probably learn the rest of the numnbers as i go!), and how to read verbose SSH debug output to diagnose a connection issue instead of guessing blindly (somewhat..)
 **What annoyed me:** The level itself seems to have a platform-side issue blocking the connection, independent of anything I did. Confirmed it via other people hitting the identical error online, not just a random guess.
 **Random thought:** Learned when to stop pushing on something that's not me, and move forward anyway with the concept intact! That's arguably more useful than the actual password would've been if i'm being quite honest.
@@ -12,7 +12,7 @@ Just a running log of what I did, what broke, and what I learned. Newest entry w
 **What I did:** Cracked Level 12! It was multi layer decompression  (xxd, gzip, bzip2 loop) and pushed into Level 13 (SSH private key login). Learned about file ownership, chmod abit more extensively, /tmp as scratch space, and copying files across permission boundaries!
 **What clicked:** Compressed files always look like gibberish with cat... at least it's normal & not broken though! Also finally got why /tmp exists as a universal writable scratch space when your own home folder can be locked down.
 **What annoyed me:** Level 13 kept failing with a "connecting from localhost is blocked" error even after doing everything right i believe? HOPEFULLY it's a serverside quirk & not something I did wrong but i'm saying this as cope to validate a frustrating 30+ min session.
-**Random thought:** Realized today that troubleshooting something that ISN'T my fault is its own skill, TOTALLY not my fault!!! knowing when to say "this might just be the server" instead of endlessly blaming my own command is new for me though, thought it was only movie talk up until now😭
+**Random thought:** Realized today that troubleshooting something that ISN'T my fault is its own skill! knowing when to say "this might just be a server issue" instead of endlessly blaming my own command is new for me though, thought it was only movie talk up until now😭
 
 ### 2026-08-05
 **What I did:** Explored whether Boot.dev or an aio app could replace this whole process (turns out no single platform does 0-to-DevOps (confirmed via research, it's normal to stitch multiple free resources together). Pushed Bandit up to Level 10. Had a real conversation about what Bandit is actually testing.
