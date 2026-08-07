@@ -2,6 +2,12 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
+### 2026-08-07
+**What I did:** Spent real time on Bandit Level 13 & just decided to give up on it as i believe its an error (the one with the SSH key login), tried multiple valid approaches (localhost, full hostname, verbose debugging), confirmed via -v output that my key loaded correctly. Also watched my first 3 A+ Core 1 videos on laptop hardware and mobile connectivity!
+**What clicked:** Actually understand SSH key auth now, how -i works, why chmod matters (but only know what 600 does at the moment, i'll probably learn the rest of the numnbers as i go!), and how to read verbose SSH debug output to diagnose a connection issue instead of guessing blindly (somewhat..)
+**What annoyed me:** The level itself seems to have a platform-side issue blocking the connection, independent of anything I did. Confirmed it via other people hitting the identical error online, not just a random guess.
+**Random thought:** Learned when to stop pushing on something that's not me, and move forward anyway with the concept intact! That's arguably more useful than the actual password would've been if i'm being quite honest.
+
 ### 2026-08-06
 **What I did:** Cracked Level 12! It was multi layer decompression  (xxd, gzip, bzip2 loop) and pushed into Level 13 (SSH private key login). Learned about file ownership, chmod abit more extensively, /tmp as scratch space, and copying files across permission boundaries!
 **What clicked:** Compressed files always look like gibberish with cat... at least it's normal & not broken though! Also finally got why /tmp exists as a universal writable scratch space when your own home folder can be locked down.
