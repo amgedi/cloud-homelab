@@ -2,6 +2,12 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
+### 2026-08-09
+**What I did:** Finished VM Practice Day 1 & 2! Connected WSL2 to VM via SSH (had to install openssh-server first, VM doesn't have it by default), transferred files both directions with SCP, confirmed it worked by cat-ing files on both machines. Also planning 3 A+ Core 1 videos tonight but wont be able to log it so I'd rather get it done earlier.
+**What clicked:** Understood /etc as the system-wide config folder, and /etc/passwd as the user roster (not actual passwords, those live in /etc/shadow). Also finally got real "two separate machines talking" practice, felt different from anything Bandit gave me it's pretty cool!
+**What annoyed me:** Nothing really. Clean session, good momentum. The cat is stealing all remaining focus for the day though 🐱
+**Random thought:** Realized ssh connection failing wasn't a bug this time, VM just legitimately didn't have SSH installed. Nice contrast to the Bandit 13 mess, felt good to debug something real and fixable.
+
 ### 2026-08-08
 **What I did:** Nothing study-related. Starting to babysit a cat for these next few weeks! 🐱 Officially closed out Bandit at Level 13 in the plan (confirmed platform bug, not my mistake) and set up a new VM practice plan to replace it.
 **What clicked:** N/A today, rest day.
