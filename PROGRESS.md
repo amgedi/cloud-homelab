@@ -2,6 +2,12 @@
 
 Just a running log of what I did, what broke, and what I learned. Newest entry will always be ontop!
 
+### 2026-08-08
+**What I did:** Nothing study-related. Starting to babysit a cat for these next few weeks! 🐱 Officially closed out Bandit at Level 13 in the plan (confirmed platform bug, not my mistake) and set up a new VM practice plan to replace it.
+**What clicked:** N/A today, rest day.
+**What annoyed me:** N/A, good day but bandit really soured my mood.
+**Random thought:** New cat, new chapter. Bandit's done, VM practice starts next session!
+
 ### 2026-08-07
 **What I did:** Spent real time on Bandit Level 13 & just decided to give up on it as i finally just closed on the idea its an error (the one with the SSH key login), tried multiple valid approaches (localhost, full hostname, verbose debugging), confirmed via -v output that my key loaded correctly. Also watched my first 3 A+ Core 1 videos on laptop hardware and mobile connectivity!
 **What clicked:** Actually understand SSH key auth now, how -i works, why chmod matters (but only know what 600 does at the moment, i'll probably learn the rest of the numnbers as i go!), and how to read verbose SSH debug output to diagnose a connection issue instead of guessing blindly (somewhat..)
